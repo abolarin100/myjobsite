@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: rgba(35, 196, 54, 0.2);
+  --secondary: #2d2a05;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: black;
+}
+* {
+  color: white;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction:row;
+  position: relative;
+  top: 30px;
+}
+
+.text .button a {
+
+  text-decoration: none;
+  
+}
+
+.text .button:hover {
+  background: rgb(1, 97, 32);
+}
+
+@media only screen and (max-width: 900px) {
+
+  section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+  
+
+
+.home h2 {
+  color: green;
+}
+p {
+  margin: 20px 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid green;
+}
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: rgb(23, 132, 23);
+}
+
+/* page content */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* help layout */
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+.help-layout nav a{
+  padding: 10px;
+  border: 2px solid rgba(35, 196, 54, 0.2);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.help-layout nav a:hover{
+  border-color: white;
+}
+.help-layout nav a.active {
+  background: rgba(35, 196, 54, 0.2);
+}
+
+/* faq */
+.faq .question {
+  background: rgba(35, 196, 54, 0.2);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* contact form */
+form {
+  margin-top: 30px;
+}
+form input, form label span, form textarea {
+  display: block;
+}
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: rgba(35, 196, 54, 0.2);
+}
+form label span {
+  margin-bottom: 10px;
+}
+
+/* careers list */
+.careers > a {
+  display: block;
+  background: rgba(25, 170, 51, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+.careers > a:hover p {
+  color: greenyellow;
+}
+.careers p {
+  margin: 0;
+}
+.careers > a p:last-child {
+ font-size: 0.8em;
+ color: #359374;
+}
+
+
+/* careers details */
+.career-details {
+  background: rgba(9, 10, 1, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* breadcrumbs */

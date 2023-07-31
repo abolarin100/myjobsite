@@ -1,0 +1,46 @@
+{
+  "careers": [
+    {
+      "id": 1,
+      "title": "Supritendent Pharmacist",
+      "salary": 50000,
+      "location": "Lagos, Nigeria"
+    },
+    {
+      "id": 2,
+      "title": "Plumber",
+      "salary": 3000,
+      "location": "Abuja, Nigeria"
+    },
+    {
+      "id": 3,
+      "title": "Supply Chain Manager",
+      "salary": 5000,
+      "location": "Kano, Nigeria"
+    },
+    {
+      "id": 4,
+      "title": "M&E Specialist",
+      "salary": 60000,
+      "location": "Lagos, Nigeria"
+    },
+    {
+      "id": 5,
+      "title": "Data Entry Officer",
+      "salary": 3500,
+      "location": "Lagos, Nigeria"
+    },
+    {
+      "id": 6,
+      "title": "Data Analyst",
+      "salary": 50000,
+      "location": "Oyo, Nigeria"
+    },
+    {
+      "id": 7,
+      "title": "M&E Intern",
+      "salary": 200,
+      "location": "Kano, Nigeria"
+    }
+  ]
+}

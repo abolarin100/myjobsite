@@ -64,7 +64,7 @@ button {
 
 header nav {
   display: flex;
-  background-color: #092b1b;
+  /* background-color: #092b1b; */
   /* gap: 26px; */
   justify-content: space-between;
   align-items: center;

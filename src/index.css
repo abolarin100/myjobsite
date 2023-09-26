@@ -112,7 +112,7 @@ header nav a.active {
     flex-direction: column;
     background-color: black;
     position: absolute;
-    top: 99px;
+    top: 105px;
     left: 15px;
     z-index: 1;
     transition: max-height 0.8s ease-out;

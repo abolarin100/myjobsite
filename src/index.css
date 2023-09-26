@@ -60,12 +60,23 @@ button {
 }
 
 /* navbar */
+
+
 header nav {
   display: flex;
-  gap: 16px;
-  justify-content: end;
-  max-width: 1200px;
+  background-color: #092b1b;
+  /* gap: 26px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* max-width: 1200px; */
   margin: 0 auto;
+}
+.nav-links {
+  display: flex;
+}
+.menu-toggle {
+  display: none;
 }
 header nav h1 {
   margin-right: auto;
@@ -79,6 +90,54 @@ header nav a{
 header nav a.active {
   background: rgb(23, 132, 23);
 }
+
+
+@media screen and (max-width: 768px) {
+
+  
+
+  .header .menu-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    
+  }
+  .nav-links {
+    display: none;
+    
+    width: 97%;
+    margin-left: 5px;
+    margin-right: 40px;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 99px;
+    left: 15px;
+    z-index: 1;
+    transition: max-height 0.8s ease-out;
+    animation-duration: .5s;
+
+  }
+  .nav-links a {
+    margin-right: 30px;
+  }
+
+  .nav-links.show {
+    display: flex;
+    
+}
+
+.menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+}
+
+
+
 
 /* page content */
 main {
